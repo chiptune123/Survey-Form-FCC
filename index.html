@@ -26,11 +26,11 @@
         <option>Prefer Not to Say</option>
         <option>Other</option>
       </select>
-      <p class="recommend">Would you recommend freeCodeCamp to a friend?<span>(Check all that apply)</span></p>
-      <label><input type="radio" name="recommend-option" id="definitely" value="definitely" checked>Definitely</label>
-      <label><input type="radio" name="recommend-option" id="maybe" value="maybe">Maybe</label>
-      <label><input type="radio" name="recommend-option" id="not-sure" value="not-sure">Not sure</label>
-      <label>What is your favorite feature of freeCodeCamp</label>
+      <p class="left-align">Would you recommend freeCodeCamp to a friend?</p>
+      <label><input type="radio" name="recommend-option" id="definitely" value="definitely" checked class="inline">Definitely</label>
+      <label><input type="radio" name="recommend-option" id="maybe" value="maybe" class="inline">Maybe</label>
+      <label><input type="radio" name="recommend-option" id="not-sure" value="not-sure" class="inline">Not sure</label>
+      <p class="left-align">What is your favorite feature of freeCodeCamp</p>
       <select name="favorite" id="favorite">
         <option disabled value selected>Select an option</option>
         <option>Challenges</option>
@@ -38,19 +38,20 @@
         <option>Community</option>
         <option>Open Source</option>
       </select>
-      <p>What would you like to see improved? <span>(Check all that apply)</span></p>
-      <label><input type="radio" name="improve-option" id="front-end" checked>Front-end Projects</label>
-      <label><input type="radio" name="improve-option" id="back-end">Back-end Projects</label>
-      <label><input type="radio" name="improve-option" id="data-visualization">Data Visualization</label>
-      <label><input type="radio" name="improve-option" id="challenges">Challenges</label>
-      <label><input type="radio" name="improve-option" id="open-source-community">open-source-community</label>
-      <label><input type="radio" name="improve-option" id="gitter-help-room">Gitter help rooms </label>
-      <label><input type="radio" name="improve-option" id="videos">Video</label>
-      <label><input type="radio" name="improve-option" id="city-meetups">City Meetups</label>
-      <label><input type="radio" name="improve-option" id="wiki">Wiki</label>
-      <label><input type="radio" name="improve-option" id="forum">forum</label>
-      <label><input type="radio" name="improve-option" id="additional-courses">Additional Courses</label>
-        
+      <p class="left-align">What would you like to see improved? <span>(Check all that apply)</span></p>
+      <label><input type="checkbox" name="improve-option" id="front-end" class="inline">Front-end Projects</label>
+      <label><input type="checkbox" name="improve-option" id="back-end" class="inline">Back-end Projects</label>
+      <label><input type="checkbox" name="improve-option" id="data-visualization" class="inline">Data Visualization</label>
+      <label><input type="checkbox" name="improve-option" id="challenges" class="inline">Challenges</label>
+      <label><input type="checkbox" name="improve-option" id="open-source-community" class="inline">Open source community</label>
+      <label><input type="checkbox" name="improve-option" id="gitter-help-room" class="inline">Gitter help rooms </label>
+      <label><input type="checkbox" name="improve-option" id="videos" class="inline">Video</label>
+      <label><input type="checkbox" name="improve-option" id="city-meetups" class="inline">City Meetups</label>
+      <label><input type="checkbox" name="improve-option" id="wiki" class="inline">Wiki</label>
+      <label><input type="checkbox" name="improve-option" id="forum" class="inline">forum</label>
+      <label><input type="checkbox" name="improve-option" id="additional-courses" class="inline">Additional Courses</label>
+      <p>Any comments or suggestions?</p>
+      <textarea id="comment" name="comment" value="comment" rows="10" cols="90"></textarea>
     </form>
   </body>
 </html>

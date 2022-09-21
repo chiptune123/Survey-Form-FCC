@@ -1,7 +1,7 @@
 html { 
   background:  linear-gradient(
-    rgba(31, 36, 141, 0.45), 
-    rgba(31, 36, 141, 0.45)
+    rgba(31, 40, 208, 0.45), 
+    rgba(31, 40, 208, 0.45)
   ),
   /* bottom, image */
   url(https://www.oxfordlearning.com/wp-content/uploads/2018/11/group-photo.jpeg) no-repeat center center fixed; 
@@ -38,8 +38,27 @@ input, select{
   font-size: 15px;
 }
 
+.inline{
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5em 0 0;
+}
+
+input[type=radio] {
+  width: 20px;
+  }
+
+input[type=checkbox]{
+  width: 20px;
+}
 label{
   display: block;
   color: #f5f6f7;
   font-size: 1.3em;
+}
+
+.left-align{
+  text-align: left;
+  font-size: 1.3em;
+  margin-bottom: 5px;
 }
