@@ -27,8 +27,9 @@ form{
   padding: 50px 40px;
 }
 
-input, select{
+input,select{
   width: 100%;
+  box-sizing:border-box;
   min-height: 3em;
   margin-top: 0.8em;
   margin-bottom: 2em;
@@ -61,4 +62,15 @@ label{
   text-align: left;
   font-size: 1.3em;
   margin-bottom: 5px;
+}
+
+textarea{
+  padding-top: 0.8em;
+  padding-left: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+textarea::placeholder{
+  font-family: Tahoma;
+  font-size: 16px;
 }
