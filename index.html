@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>FreeCodeCamp Survey Form</h1>
-    <p class="opening">Thank you for taking time to help us improve the platform</p>
-    <form>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p class="description">Thank you for taking time to help us improve the platform</p>
+    <form id="survey-form">
       <label>Name</label>
-      <input type="text" name="name" placeholder="Enter your name">
+      <input type="text" id="name" placeholder="Enter your name" required>
       <label>Email</label>
-      <input type="email" name="email" placeholder="Enter your email">
+      <input type="email" id="email" placeholder="Enter your email" required>
       <label>Age</label>
-      <input type="number" name="age" placeholder="Age">
+      <input type="number" name="age" placeholder="Age" pattern="[0-9]">
       <label>Which option best describes your current role?</label>
       <select name="describes" id="describes">
         <option >Select current role</option>
